@@ -1,0 +1,12 @@
+[
+  {
+    "filename": "development-v1.json",
+    "sha256": "39718a8b6e4e9a059820567bb17b33ef8fee19d60e1a3d1b41b5ec4ae796c404",
+    "cases": 40
+  },
+  {
+    "filename": "holdout-v1.json",
+    "sha256": "a8fdd5c23ed276c7f06c7927705336a0cf66e0e70112c526b43a448698365d12",
+    "cases": 240
+  }
+]

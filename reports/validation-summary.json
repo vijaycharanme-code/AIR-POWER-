@@ -1,0 +1,43 @@
+{
+  "release": "airpower-1.0.0",
+  "backend": {
+    "tests": 346,
+    "failed": 0,
+    "status": "PASSED"
+  },
+  "frontend": {
+    "tests": 6,
+    "status": "PASSED"
+  },
+  "browser": {
+    "tests": 2,
+    "failed": 0,
+    "status": "PASSED"
+  },
+  "http_operations": {
+    "checked": 21,
+    "total": 21,
+    "status": "PASSED"
+  },
+  "openapi": "PASSED",
+  "typescript_build": "PASSED",
+  "backup_restore": "PASSED",
+  "frozen_policy_cases": {
+    "development": 40,
+    "holdout_valid": 120,
+    "holdout_invalid": 120,
+    "status": "PASSED"
+  },
+  "live_gemini": "NOT_RUN \u2014 no user key supplied; adapter contract and failures tested with controlled responses",
+  "windows_launcher": "NOT_RUN \u2014 validation host is Linux",
+  "numeric_rul": "BLOCKED \u2014 Gate B acceptance not supplied",
+  "fleet_simulation": "NOT_RUN \u2014 Gate C assumptions not supplied",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "node": "24.19.0",
+    "browser": "Chromium 136 / Playwright 1.52.0"
+  },
+  "clean_locked_install": "PASSED \u2014 fresh venv install, pip check and 346 backend tests",
+  "extracted_release": "PASSED \u2014 fresh migration, readiness, SPA deep link, assets and fixture import"
+}

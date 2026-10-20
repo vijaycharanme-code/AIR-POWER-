@@ -1,0 +1,154 @@
+{
+  "passed": 21,
+  "total": 21,
+  "operations": [
+    {
+      "method": "GET",
+      "path": "/api/v1/live",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/ready",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/session",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/demo/metadata",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/import-runs",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/import-runs/{runId}",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/cases",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/cases/{caseId}",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/cases/{caseId}/evaluations",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/cases/{caseId}/dispositions",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/cases/{caseId}/events",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/cases/{caseId}/explanations",
+      "http_status": 503,
+      "expected": 503,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/evaluation-runs",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/evaluation-runs/{runId}",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/artifacts/{artifactId}",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/rul-runs",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/rul-runs/{runId}",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/rul-runs",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/simulation-runs",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/simulation-runs/{runId}",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/simulation-runs",
+      "http_status": 200,
+      "expected": 200,
+      "passed": true
+    }
+  ],
+  "live_gemini": "NOT_RUN: no key supplied; missing-key 503 verified; provider responses tested using controlled transport."
+}

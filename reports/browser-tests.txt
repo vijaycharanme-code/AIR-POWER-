@@ -1,0 +1,12 @@
+
+Running 2 tests using 1 worker
+
+(node:23) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 e2e/workflow.spec.cjs:2:1 › import → queue → evaluate → disposition → replay → frozen suite (1.7s)
+  ✓  2 e2e/workflow.spec.cjs:20:1 › queue filters persist in URL and case history deep links load (621ms)
+
+  2 passed (3.1s)
+HTTP ENDPOINT CHECK: 21/21 passed

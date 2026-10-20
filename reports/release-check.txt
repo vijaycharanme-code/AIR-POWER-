@@ -1,0 +1,5 @@
+PASSED: locked dependencies installed into a fresh Python 3.12 virtual environment; pip check found no broken requirements.
+PASSED: all 346 backend tests in the fresh environment.
+PASSED: archive extracted to an empty directory; migrated SQLite; started one loopback server; loaded SPA deep link and bundled assets; imported 40 development cases.
+PASSED: ZIP CRC and per-file SHA-256 manifest verified.
+NOT_RUN: Windows launcher on Windows; live Gemini request with user credentials.
